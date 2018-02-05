@@ -1,0 +1,24 @@
+﻿<Application x:Class="Mario.Eval.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Mario.Eval;component/Images/ImageResources.xaml"/>
+                <ResourceDictionary Source="/Mario.Eval;component/Styles/MapStyle.xaml"/>
+                <ResourceDictionary Source="/Mario.Eval;component/Styles/MapItemStyle.xaml"/>
+                <ResourceDictionary Source="/Mario.Eval;component/Styles/PlayerStyle.xaml"/> 
+                
+                <ResourceDictionary Source="/Mario.Eval;component/Styles/Items/MapItemSpeedUpUserControl.xaml"/>
+                <ResourceDictionary Source="/Mario.Eval;component/Styles/Items/MapItemDamageUserControl.xaml"/>
+                <ResourceDictionary Source="/Mario.Eval;component/Styles/Items/MapItemCoinUserControl.xaml"/>
+                <ResourceDictionary Source="/Mario.Eval;component/Styles/Items/MapItemLifeUpUserControl.xaml"/>
+                
+                <ResourceDictionary Source="/Mario.Eval;component/Styles/AnimationControlStyle.xaml"/>
+                <ResourceDictionary Source="/Mario.Eval;component/Styles/HudUserControlStyle.xaml"/>
+                
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

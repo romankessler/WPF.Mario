@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:userControls="clr-namespace:Mario.Eval.UserControls"
+                    xmlns:eval="clr-namespace:Mario.Eval">
+    <Style TargetType="{x:Type userControls:MapUserControl}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <ImageBrush ImageSource="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type userControls:MapUserControl}}, Path=MapTerrainImage}"
+                            Stretch="None"
+                            AlignmentX="Left"
+                            AlignmentY="Top"
+                            TileMode="None"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+</ResourceDictionary>

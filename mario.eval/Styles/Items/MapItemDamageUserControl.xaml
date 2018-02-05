@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:userControls="clr-namespace:Mario.Eval.UserControls"
+                    xmlns:items="clr-namespace:Mario.Eval.UserControls.Buffs">
+    <Style TargetType="{x:Type items:MapItemDamageUserControl}" BasedOn="{StaticResource {x:Type userControls:MapItemUserControl}}"/>
+</ResourceDictionary>

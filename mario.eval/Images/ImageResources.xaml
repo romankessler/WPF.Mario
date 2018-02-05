@@ -1,0 +1,23 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <ImageSource x:Key="ImgMarioCharset">/Mario.Eval;component/Images/Mario_Charset.png</ImageSource>
+    <ImageSource x:Key="ImgSteinCharset">/Mario.Eval;component/Images/Stein_Charset.png</ImageSource>
+
+    <ImageSource x:Key="ImgStein">/Mario.Eval;component/Images/Stein.png</ImageSource>
+
+    <ImageSource x:Key="ImgMushroomFlash">/Mario.Eval;component/Images/Mushroom_flash.png</ImageSource>
+    <ImageSource x:Key="ImgMine">/Mario.Eval;component/Images/Mine.png</ImageSource>
+
+    <ImageSource x:Key="ImgCoin">/Mario.Eval;component/Images/Muenze.png</ImageSource>
+    <ImageSource x:Key="ImgHeart">/Mario.Eval;component/Images/Heart.png</ImageSource>
+
+    <ImageSource x:Key="ImgBusch">/Mario.Eval;component/Images/Busch.png</ImageSource>
+
+    <ImageSource x:Key="ImgGroundExplosion">/Mario.Eval;component/Images/ground_Explosion.png</ImageSource>
+    <ImageSource x:Key="ImgExplosion">/Mario.Eval;component/Images/shiposion.png</ImageSource>
+    <ImageSource x:Key="ImgBloodFontain">/Mario.Eval;component/Images/Blood_Fontain.png</ImageSource>
+
+    <ImageSource x:Key="ImgBackground">/Mario.Eval;component/Images/Background.png</ImageSource>
+</ResourceDictionary>

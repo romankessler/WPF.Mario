@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LightCore</id>
+    <version>1.4.1</version>
+    <title>LightCore</title>
+    <authors>Peter Bucher</authors>
+    <owners>Peter Bucher</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>LightCore is a lightweight dependency injection container which can be used as a service locator, too. Despite its simplicity and its lightness there are lots of features to explore.</description>
+    <summary>LightCore is a lightweight dependency injection container which can be used as a service locator, too. Despite its simplicity and its lightness there are lots of features to explore.</summary>
+  </metadata>
+</package>

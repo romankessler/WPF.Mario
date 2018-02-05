@@ -1,0 +1,7 @@
+var syncContext = TaskScheduler.FromCurrentSynchronizationContext();
+
+                    var task = Task.Factory.StartNew(() => ProcessingVersion(wizardResult));
+                    task.ContinueWith(
+                        x => NavigationWrapperService.Navigate(RegionNames.REGION_MAIN_CONTENT, ViewNames.VIEW_MASTERKATALOG_RELOAD), syncContext);
+
+--

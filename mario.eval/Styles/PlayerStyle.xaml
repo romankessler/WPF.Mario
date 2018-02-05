@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:userControls="clr-namespace:Mario.Eval.UserControls"
+                    xmlns:people="clr-namespace:Mario.Eval.UserControls.People">
+    <Style TargetType="{x:Type people:PlayerUserControl}" BasedOn="{StaticResource {x:Type userControls:MapItemUserControl}}"/>
+
+</ResourceDictionary>

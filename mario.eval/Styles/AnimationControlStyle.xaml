@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:userControls="clr-namespace:Mario.Eval.UserControls">
+    <Style TargetType="{x:Type userControls:AnimationControl}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Width="{Binding ImageSource.Width}" Height="{Binding ImageSource.Height}">
+                        <Rectangle.Fill>
+                            <ImageBrush x:Name="PART_ImageBrush"
+                                        AlignmentX="Left"
+                                        AlignmentY="Top"
+                                        TileMode="None"
+                                        ViewportUnits="Absolute">
+                                <ImageBrush.Transform>
+                                    <TranslateTransform x:Name="PART_SpriteSheetOffset" X="0" Y="0"/>
+                                </ImageBrush.Transform>
+                            </ImageBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
