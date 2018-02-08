@@ -17,7 +17,7 @@
                 <userControls:MapItemUserControl XPosition="50" YPosition="80" Charset="{StaticResource ImgBusch}" ImageType="Image" IsBlocked="True"/>
                 <userControls:MapItemUserControl XPosition="350" YPosition="300" Charset="{StaticResource ImgStein}" ImageType="Image" IsBlocked="True"/>
                 <people:PlayerUserControl XPosition="150" YPosition="150" Charset="{StaticResource ImgMarioCharset}" KeyMoveLeft="Left" KeyMoveRight="Right" KeyMoveUp="Up" KeyMoveDown="Down"/>
-                <!--<people:PlayerUserControl XPosition="200" YPosition="200" Charset="{StaticResource ImgMarioCharset}" KeyLeft="A" KeyRight="D" KeyUp="W" KeyDown="S"/>-->
+                <people:PlayerUserControl XPosition="200" YPosition="200" Charset="{StaticResource ImgMarioCharset}" KeyMoveLeft="A" KeyMoveRight="D" KeyMoveUp="W" KeyMoveDown="S"/>
             </userControls:MapUserControl>
         </userControls:HudUserControl.AdditionalContent>
         </userControls:HudUserControl>
